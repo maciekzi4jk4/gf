@@ -1,0 +1,67 @@
+@font-face {
+    font-family: "Satoshi";
+    src: url(Satoshi-Bold.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url(Satoshi-Medium.otf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Satoshi";
+    src: url(Satoshi-Regular.otf);
+    font-weight: 100;
+}
+
+
+
+
+body{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Satoshi";
+
+}
+
+h1{
+    font-weight: 300;
+    font-size: 4rem;
+}
+h2{
+    font-size: 2rem;
+    font-weight: 20;
+    margin-bottom: -1rem;
+}
+img{
+    margin-top: 2rem;
+}
+
+button{
+    font-family: "Satoshi";
+    font-size: 2rem;
+    font-weight: 200;
+    margin-top: 2rem;
+    padding: 1rem;
+    margin-right: 2rem;
+    cursor: pointer;
+    border: none;
+    color: white;
+}
+button:hover{
+    opacity: 70%;
+}
+button:active{
+    opacity: 30%;
+}
+.green{
+    background-color: chartreuse;
+}
+.red{
+    background-color: red;
+}
